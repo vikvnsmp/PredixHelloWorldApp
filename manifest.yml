@@ -1,5 +1,6 @@
 ---
 applications:
-  - name: sample-app
+  - name: vik-app
     buildpack: java_buildpack
+    host: vik-first
     path: target/demo-0.0.1-SNAPSHOT.jar
