@@ -15,7 +15,7 @@ public class MyController {
 	private Logger logger = LoggerFactory.getLogger(MyController.class);
 	
 	@RequestMapping("/")
-	public String test(){
+	public String test(){ 
 		return "Hello";
 	}
 
